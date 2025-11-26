@@ -65,7 +65,7 @@ services:
     ```
 
 ## Diagrama do fluxo do Docker e Node.js
-
+```bash
 +-------------------+
 | Navegador |
 | http://localhost:5000
@@ -93,7 +93,7 @@ v
 | Servidor Node.js |
 | - Responde requisições HTTP
 | - Serve arquivos HTML/JS/CSS
-
+```
 
 **Volumes:**
 - `.:/app` → mantém seu código atualizado no container (hot reload)  
