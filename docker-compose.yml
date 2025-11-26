@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    container_name: meu-teste-docker-app
+    ports:
+      - "5000:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: ["node", "src/index.js"]
