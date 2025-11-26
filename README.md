@@ -6,6 +6,7 @@ Este é um projeto de teste para aprendizado de Docker + Node + Express, com **H
 
 ## Estrutura do projeto
 
+```bash
 meu-teste-docker/
 ├── src/
 │ └── index.js # Servidor Node
@@ -14,7 +15,7 @@ meu-teste-docker/
 ├── package.json # Dependências do Node
 ├── Dockerfile # Definição da imagem
 └── docker-compose.yml # Orquestração do container, volumes e portas
-
+```
 
 ---
 
